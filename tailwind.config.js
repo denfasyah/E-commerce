@@ -5,6 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: "100px",
+    },
     extend: {
       daisyui: {
         themes: [
@@ -21,7 +25,7 @@ export default {
             
    "base-100": "#fafdf6",
             
-   "info": "#00d4ff",
+   "info": "#e11c00",
             
    "success": "#21b400",
             
